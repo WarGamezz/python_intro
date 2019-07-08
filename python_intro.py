@@ -12,6 +12,11 @@ This is a multiline
 comment.
 '''
 
+#! Expressions in parentheses, square brackets, or curly braces can be split over more than one physical line without using backslashes
+month_names = ["January", "February"
+                "March", "April"]
+#this is a valid expression
+
 #! There is no declaration of variables required in Python. It's not even possible. If there is need of a variable, you think of a name and start using it as a variable. 
 #!Not only the value of a variable may change during program execution but the type as well. You can assign an integer value to a variable, use it as an integer for a while and then assign a string to the same variable. The following code is perfectly okay
 
@@ -122,8 +127,9 @@ print('This is how you youse backslash \\ in the string without actually escapin
 print('This is how you escape single quote\'s and still finish the string')
 # \"	Double quote (")
 print("This is how you escape \"double quote\" and still finish the string")
-
-#\n adds a new line
+#\t     Tabulation
+print("This is how \t we add \t horizontal tabulation")
+#\n     Adds a new line
 print("Hello","\n","world")
 
 #! Python lists
